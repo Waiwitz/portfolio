@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&family=Yantramanav:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffffba !important;
+    backdrop-filter: blur(10px);
+}
+
+
+.logo {
+    font-family: 'Skranji', cursive;
+    font-size: 30px !important;
+    color: #4529b7 !important;
+    transition: 0.9s ease-out;
+
+}
+
+.logo:hover {
+    color: #9b83ff !important;
+    transition: 0.1s ease-in;
+}
+
+.nav-link {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.1s;
+
+}
+
+.nav-link:hover {
+    color: white !important;
+    background: #4529b7;
+    background: linear-gradient(0deg, #3a2e6b 0%, #4529b7 81%);
+    transition: 0.2s;
+    transform: translateY(5px);
+}
+
+.nav-link.active {
+    color: white !important;
+    font-weight: bold;
+    background: #4529b7;
+    background: linear-gradient(0deg, #3a2e6b 0%, #4529b7 81%);
+}
+
+.banner {
+    background: rgb(41, 124, 183);
+    background: linear-gradient(0deg, #297cb700 0%, #d1aeff 59%, #4827cd 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.banner .col.card {
+    padding: 0 !important;
+    height: 80vh;
+    /* background-image: url(img/BC3DD79D-7BDD-40E9-B6C7-41B524380649.JPG); */
+}
+
+.card {
+    border-radius: 5px !important;
+}
+
+#skill {
+    height: fit-content;
+}
+
+.state {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #2969b7;
+    border-radius: 100%;
+}
+
+.skill-box {
+    width: 130px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+}
